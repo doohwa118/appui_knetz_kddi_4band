@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kr.knetz.kddi.app"
+4    android:minSdkVersion="21"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:9:5-12:11
+9        android:minSdkVersion="21"
+9-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:11:9-35
+10        android:targetSdkVersion="29" />
+10-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:9:5-12:11
+11
+12    <uses-feature android:name="android.hardware.usb.host" />
+12-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:14:5-62
+12-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:14:19-59
+13
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:15:5-80
+14-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:15:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:16:5-81
+15-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:16:22-78
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:17:5-74
+16-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:17:22-71
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:18:5-68
+17-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:18:22-65
+18
+19    <!-- <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> -->
+20    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+21    <application
+21-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:22:5-82:19
+22        android:name="kr.knetz.kddi.app.KNetzApp"
+22-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:23:9-50
+23        android:allowBackup="false"
+23-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:24:9-36
+24        android:debuggable="true"
+25        android:icon="@mipmap/au"
+25-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:25:9-34
+26        android:label="@string/app_name"
+26-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:27:9-41
+27        android:roundIcon="@mipmap/au_round"
+27-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:26:9-45
+28        android:testOnly="true"
+29        android:theme="@style/OTGAppUITheme" >
+29-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:28:9-45
+30
+31        <!-- android:icon="@drawable/knetz_2_512" -->
+32        <!-- android:icon="@mipmap/ntt_docomo" -->
+33        <!-- android:roundIcon="@mipmap/ntt_docomo_round" -->
+34
+35
+36        <!-- android:theme="@style/StyledIndicators" -->
+37        <activity
+37-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:35:9-51:20
+38            android:name="kr.knetz.kddi.app.v.MainActivity"
+38-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:36:13-60
+39            android:clearTaskOnLaunch="true"
+39-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:40:13-45
+40            android:label="@string/app_name"
+40-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:37:13-45
+41            android:launchMode="singleTop"
+41-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:38:13-43
+42            android:screenOrientation="portrait" >
+42-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:39:13-49
+43            <intent-filter>
+43-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:41:13-44:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:42:17-69
+44-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:42:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:43:17-77
+46-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:43:27-74
+47            </intent-filter>
+48            <intent-filter>
+48-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:45:13-47:29
+49                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+49-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:46:17-90
+49-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:46:25-87
+50            </intent-filter>
+51
+52            <meta-data
+52-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:48:13-50:57
+53                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+53-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:49:17-79
+54                android:resource="@xml/device_filter" />
+54-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:50:17-54
+55        </activity>
+56        <activity
+56-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:52:9-55:20
+57            android:name="kr.knetz.kddi.app.v.h.LoginActivity"
+57-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:53:13-63
+58            android:windowSoftInputMode="stateAlwaysHidden" >
+58-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:54:13-60
+59        </activity>
+60        <activity
+60-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:56:9-58:20
+61            android:name="kr.knetz.kddi.app.v.h.ConnectActivity"
+61-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:56:19-71
+62            android:clearTaskOnLaunch="true" >
+62-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:57:13-45
+63        </activity>
+64        <activity android:name="kr.knetz.kddi.app.v.h.FileListActivity" >
+64-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:59:9-60:20
+64-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:59:19-72
+65        </activity>
+66        <activity android:name="kr.knetz.kddi.app.v.h.HistoryActivity" >
+66-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:61:9-62:20
+66-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:61:19-71
+67        </activity>
+68        <activity
+68-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:63:9-66:66
+69            android:name="kr.knetz.kddi.app.v.h.DeviceListActivity"
+69-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:63:19-74
+70            android:configChanges="orientation|keyboardHidden"
+70-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:66:13-63
+71            android:label="@string/select_device"
+71-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:64:13-50
+72            android:theme="@android:style/Theme.Dialog" />
+72-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:65:13-56
+73
+74        <service
+74-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:67:9-76:19
+75            android:name="kr.knetz.kddi.app.v.h.DeviceService"
+75-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:68:13-63
+76            android:enabled="true" >
+76-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:69:13-35
+77            <intent-filter>
+77-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:70:13-75:29
+78                <action android:name="SEND_MSG_FROM_BT_ACTION" />
+78-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:71:17-66
+78-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:71:25-63
+79                <action android:name="CONNECT_REQUEST_ACTION" />
+79-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:72:17-65
+79-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:72:25-62
+80                <action android:name="DISCONNECT_REQUEST_ACTION" />
+80-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:73:17-68
+80-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:73:25-65
+81                <action android:name="START_MONITOR_ACTION" />
+81-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:74:17-63
+81-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:74:25-60
+82            </intent-filter>
+83        </service>
+84
+85        <activity
+85-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:78:9-81:20
+86            android:name="kr.knetz.kddi.app.v.h.SettingActivity"
+86-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:79:13-65
+87            android:label="@string/title_activity_preference" >
+87-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:80:13-62
+88        </activity>
+89
+90        <meta-data
+90-->[com.android.support:design:26.1.0] C:\Users\dhjun\.gradle\caches\transforms-2\files-2.1\fa761254aaa8e1689e6752d7e2f87c59\design-26.1.0\AndroidManifest.xml:26:9-28:38
+91            android:name="android.support.VERSION"
+91-->[com.android.support:design:26.1.0] C:\Users\dhjun\.gradle\caches\transforms-2\files-2.1\fa761254aaa8e1689e6752d7e2f87c59\design-26.1.0\AndroidManifest.xml:27:13-51
+92            android:value="26.1.0" />
+92-->[com.android.support:design:26.1.0] C:\Users\dhjun\.gradle\caches\transforms-2\files-2.1\fa761254aaa8e1689e6752d7e2f87c59\design-26.1.0\AndroidManifest.xml:28:13-35
+93        <meta-data
+93-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\dhjun\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+94            android:name="android.arch.lifecycle.VERSION"
+94-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\dhjun\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:26:13-58
+95            android:value="27.0.0-SNAPSHOT" />
+95-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\dhjun\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:27:13-44
+96    </application>
+97
+98</manifest>

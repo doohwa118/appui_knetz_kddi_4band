@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.knetz.kddi.app"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1"
+    android:versionName="1.0.0"
+    android:minSdkVersion="21">
+
+    <uses-sdk
+        tools:overrideLibrary="org.adw.library.widgets.discreteseekbar, android.support.v4"
+        android:minSdkVersion="14"
+        />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+<!--    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+
+    <application
+        android:name="kr.knetz.kddi.app.KNetzApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/au"
+        android:roundIcon="@mipmap/au_round"
+        android:label="@string/app_name"
+        android:theme="@style/OTGAppUITheme" >
+
+<!--        android:icon="@drawable/knetz_2_512"-->
+        <!--        android:icon="@mipmap/ntt_docomo"-->
+        <!--        android:roundIcon="@mipmap/ntt_docomo_round"-->
+
+        <!--android:theme="@style/StyledIndicators"-->
+        <activity
+            android:name="kr.knetz.kddi.app.v.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name="kr.knetz.kddi.app.v.h.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity android:name="kr.knetz.kddi.app.v.h.ConnectActivity"
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name="kr.knetz.kddi.app.v.h.FileListActivity">
+        </activity>
+        <activity android:name="kr.knetz.kddi.app.v.h.HistoryActivity">
+        </activity>
+        <activity android:name="kr.knetz.kddi.app.v.h.DeviceListActivity"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Dialog"
+            android:configChanges="orientation|keyboardHidden" />
+        <service
+            android:name="kr.knetz.kddi.app.v.h.DeviceService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="SEND_MSG_FROM_BT_ACTION" />
+                <action android:name="CONNECT_REQUEST_ACTION" />
+                <action android:name="DISCONNECT_REQUEST_ACTION" />
+                <action android:name="START_MONITOR_ACTION" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="kr.knetz.kddi.app.v.h.SettingActivity"
+            android:label="@string/title_activity_preference">
+        </activity>
+    </application>
+
+</manifest>

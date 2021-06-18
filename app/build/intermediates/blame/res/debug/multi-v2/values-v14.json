@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "16,7,28,43,11,23",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "634,227,1242,2095,383,993",
+                        "endLines": "21,9,41,45,14,26",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "985,375,2087,2246,626,1234"
+                    },
+                    "to": {
+                        "startLines": "12,18,26,40,43,61",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "633,984,1411,2248,2402,3633",
+                        "endLines": "17,20,39,42,46,64",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "979,1130,2243,2397,2642,3871"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dhjun\\.gradle\\caches\\transforms-2\\files-2.1\\b28c3dfacec283a46c3ce58afd169202\\appcompat-v7-26.1.0\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    },
+                    "to": {
+                        "startLines": "21,47,48,49,55",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1135,2647,2718,2801,3211",
+                        "endLines": "25,47,48,54,60",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "1406,2713,2796,3206,3628"
+                    }
+                },
+                {
+                    "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\values-v14\\color.xml",
+                    "from": {
+                        "startLines": "11,8,9,28,24,18,26,10,3,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "540,362,424,1379,1244,885,1312,491,165,116",
+                        "endColumns": "46,60,65,64,64,63,63,47,49,47",
+                        "endOffsets": "582,418,485,1439,1304,944,1371,534,210,159"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,163,229,294,359,423,487,535,585",
+                        "endColumns": "46,60,65,64,64,63,63,47,49,47",
+                        "endOffsets": "97,158,224,289,354,418,482,530,580,628"
+                    }
+                }
+            ]
+        }
+    ]
+}

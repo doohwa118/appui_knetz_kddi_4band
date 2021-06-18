@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="transparent">#00000000</color>
+    <color name="tab_highlight">#ff9ecfbf</color>
+
+
+    <!--<color name="actionbar_title_background">#ff173660</color>-->
+<!--    <color name="actionbar_title_background">#DDa00709</color>-->
+    <color name="actionbar_title_background">#EB5405</color>
+    <color name="actionbar_title_background_base">#173660</color>
+    <color name="stacked_green">#808080</color>
+    <color name="accent_green">#97e08f</color>
+
+    
+    <!--<color name="gridview_background_color_odd">#C8D6E6</color>-->
+    <!--<color name="gridview_background_color_even">#7395BF</color>-->
+    <!--<color name="gridview_background_color_odd">#a4fff5</color>-->
+    <!--<color name="gridview_background_color_odd">#cbfeff</color>-->
+    <color name="gridview_background_color_odd">#f0f0f0</color>
+
+    <!--<color name="gridview_background_color_even">#00a695</color>-->
+    <!--<color name="gridview_background_color_even">#08ceba</color>-->
+    <!--<color name="gridview_background_color_even">#5ae2ff</color>-->
+    <!--<color name="gridview_background_color_even">#cbfeff</color>-->
+    <color name="gridview_background_color_even">#f0f0f0</color>
+
+    <color name="gridview_background_color_set">#CFCECE</color>
+
+    <color name="dialog_button_background_color">#3F3F3F</color>
+</resources>

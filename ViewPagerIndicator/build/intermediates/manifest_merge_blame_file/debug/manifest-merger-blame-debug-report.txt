@@ -1,0 +1,9 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.viewpagerindicator"
+4    android:versionCode="65"
+5    android:versionName="2.4.1" > <!-- <uses-sdk android:minSdkVersion="4" /> -->
+6    <uses-sdk android:targetSdkVersion="26" />
+6-->C:\Project\StudioProjects\appui_knetz_kddi_4band\ViewPagerIndicator\src\main\AndroidManifest.xml
+7
+8</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">REPQN-ZK-2101</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_activity">LoginActivity</string>
+    <string name="connect_activity">ConnectActivity</string>
+
+
+    <string name="body_sub_title1">System</string>
+    <string name="body_sub_title2">PSU</string>
+    <string name="body_sub_title3">Downlink DSP/RF ICM</string>
+    <string name="body_sub_title4">Uplink DSP/RF ICM</string>
+    <string name="body_sub_title5">Downlink Amp</string>
+    <string name="body_sub_title6">Uplink Amp</string>
+    <string name="body_sub_title7">Service FA</string>
+    <string name="body_sub_title8">Common</string>
+
+    <string name="receiver_sub_title1">Receiver Parameter</string>
+    <string name="receiver_sub_title2">RF Basic</string>
+    <string name="receiver_sub_title3">BCH</string>
+    <string name="receiver_sub_title4">P-SCH</string>
+
+<!--    <string name="modem_sub_title1">Modem Parameter</string>-->
+<!--    <string name="modem_sub_title2">RF Basic</string>-->
+<!--    <string name="modem_sub_title3">PSC</string>-->
+<!--    <string name="modem_sub_title4">ACH</string>-->
+<!--    <string name="modem_sub_title5">Modem Link</string>-->
+<!--    <string name="modem_sub_title6">Network</string>-->
+<!--    <string name="modem_sub_title7">LoopBack</string>-->
+<!--    <string name="modem_sub_title8">EMS</string>-->
+
+    <string name="modem_sub_title1">Modem Parameter</string>
+    <string name="modem_sub_title2">Cell Info</string>
+    <string name="modem_sub_title3">Remote</string>
+    <string name="modem_sub_title4">SIM</string>
+    <string name="modem_sub_title5">Network</string>
+    <string name="modem_sub_title6">EMS</string>
+
+    <string name="tsync_sub_title1">Alarm</string>
+    <string name="tsync_sub_title2">Information</string>
+    <string name="tsync_sub_title3">Configuration</string>
+
+    <string name="title_section1">Alarm</string>
+    <string name="title_section2">Status</string>
+    <string name="title_section3">Setting</string>
+    <string name="title_section4_1">Modem</string>
+    <string name="title_section4_2">Receiver</string>
+    <string name="title_section5">Tsync</string>
+
+    <string name="dialog_title">Checking Value of Setting</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="button_bluetooth">Go Settings</string>
+
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. App Exit!</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="tab1_button">Button in First Tab</string>
+    <string name="example">Example Source</string>
+
+
+</resources>

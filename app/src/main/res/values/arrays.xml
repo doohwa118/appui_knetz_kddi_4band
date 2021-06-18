@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp_test">
+        <item>TEST1</item>
+        <item>TEST2</item>
+        <item>TEST3</item>
+    </string-array>
+    <string name="icsmode_title">Choose ICS MODE</string>
+    <string-array name="set_dl_icsmode">
+        <item>TargetGain</item>
+        <item>AGC</item>
+    </string-array>
+    <string-array name="set_dl_icsmode_hidden">
+        <item>None</item>
+        <item>TargetGain</item>
+        <item>AGC</item>
+    </string-array>
+    <string-array name="set_ul_icsmode">
+        <item>TargetGain</item>
+        <item>Balance</item>
+    </string-array>
+    <string-array name="set_ul_icsmode_hidden">
+        <item>None</item>
+        <item>TargetGain</item>
+        <item>Balance</item>
+    </string-array>
+    <string-array name="set_band">
+        <item>4Band</item>
+        <item>800MHz+2.1GHz</item>
+        <item>800MHz</item>
+    </string-array>
+    <string-array name="set_rfpath">
+        <item>LTE Only</item>
+        <item>CDMA Only</item>
+        <item>LTE+CDMA</item>
+    </string-array>
+    <string-array name="set_tddmode">
+        <item>DL Only</item>
+        <item>UL Only</item>
+        <item>TDD</item>
+    </string-array>
+    <string name="tddconf_title">Choose TDD Conf</string>
+<!--    <string-array name="set_tddconf">-->
+<!--        <item>FR1.30-1 (7DS2U)</item>-->
+<!--        <item>FR1.30-2 (DDDSU)</item>-->
+<!--        <item>FR1.30-3 (DDDSUDDSUU)</item>-->
+<!--        <item>FR1.30-4 (DDDSUUDDDD)</item>-->
+<!--        <item>FR1.30-5 (DSUU)</item>-->
+<!--        <item>FR1.30-6 (DS1S2U)</item>-->
+<!--    </string-array>-->
+    <string-array name="set_tddconf">
+        <item>FR1.30-2 (DDDSU)</item>
+        <item>FR1.30-4 (DDDSUUDDDD)</item>
+    </string-array>
+
+    <string-array name="set_modem_heartbeattime">
+        <item>5min</item>
+        <item>10min</item>
+        <item>20min</item>
+        <item>30min</item>
+        <item>1Hour</item>
+        <item>2Hour</item>
+        <item>4Hour</item>
+        <item>6Hour</item>
+        <item>12Hour</item>
+        <item>1day</item>
+   <!-- <item>2day</item>
+        <item>4day</item> -->
+    </string-array>
+
+</resources>

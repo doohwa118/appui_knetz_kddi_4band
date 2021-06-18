@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--            android:id="@+id/action_settings"-->
+<!--            android:showAsAction="always"-->
+<!--            android:icon="@drawable/threedots_button_switch_vertical"-->
+<!--            android:orderInCategory="100"-->
+<!--            android:title="settings"-->
+<!--            >-->
+<!--        <menu>-->
+
+            <item
+                    android:id="@+id/action_history"
+                    android:orderInCategory="100"
+                    android:showAsAction="always"
+                    android:icon="@drawable/actionbar_history_72x72"
+                    android:title="CSV File List"
+                    android:visible="true"
+                    />
+            <item
+                    android:id="@+id/action_save"
+                    android:orderInCategory="100"
+                    android:showAsAction="always"
+                    android:icon="@drawable/actionbar_save_72x72"
+                    android:title="CSV File Save"
+                    android:visible="true"
+                    />
+            <item
+                    android:id="@+id/action_download"
+                    android:orderInCategory="100"
+                    android:showAsAction="always"
+                    android:icon="@drawable/actionbar_download_72x72"
+                    android:title="Firmware Download"
+                    android:visible="true"
+                    />
+            <item
+                    android:id="@+id/action_configuration"
+                    android:orderInCategory="100"
+                    android:showAsAction="always"
+                    android:icon="@drawable/actionbar_configuration_72x72"
+                    android:title="Setting"
+                    android:visible="true"
+                    />
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
