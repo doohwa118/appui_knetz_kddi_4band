@@ -1,4 +1,4 @@
-kr.knetz.kddi.app
+kr.knetz.qn.app
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -878,10 +878,14 @@ drawable icon_body_circle_red_64x64
 drawable knetz1_144
 drawable knetz_2_144
 drawable knetz_2_512
+drawable knetz_2_512_1
+drawable knetz_2_512_2
 drawable knetz_launcher_144x144
 drawable login_body_background_1000x480
 drawable login_body_logo_754x406
 drawable login_body_logo_754x406_2
+drawable login_body_logo_754x406_2_1
+drawable login_body_logo_754x406_2_2
 drawable login_body_logo_754x406_3
 drawable login_body_logo_754x406_4
 drawable logo_launcher

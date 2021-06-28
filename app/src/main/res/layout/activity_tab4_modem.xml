@@ -43,7 +43,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.5"/>
                 </LinearLayout>
-                <kr.knetz.kddi.app.v.h.ExpandableView
+                <kr.knetz.qn.app.v.h.ExpandableView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/gridview_body_sub1"
@@ -74,7 +74,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.5"/>
                 </LinearLayout>
-                <kr.knetz.kddi.app.v.h.ExpandableView
+                <kr.knetz.qn.app.v.h.ExpandableView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/gridview_body_sub2"
@@ -105,7 +105,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.5"/>
                 </LinearLayout>
-                <kr.knetz.kddi.app.v.h.ExpandableView
+                <kr.knetz.qn.app.v.h.ExpandableView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/gridview_body_sub3"
@@ -136,7 +136,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.5"/>
                 </LinearLayout>
-                <kr.knetz.kddi.app.v.h.ExpandableView
+                <kr.knetz.qn.app.v.h.ExpandableView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/gridview_body_sub4"
@@ -167,7 +167,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.5"/>
                 </LinearLayout>
-                <kr.knetz.kddi.app.v.h.ExpandableView
+                <kr.knetz.qn.app.v.h.ExpandableView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/gridview_body_sub5"
@@ -198,7 +198,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.5"/>
                 </LinearLayout>
-                <kr.knetz.kddi.app.v.h.ExpandableView
+                <kr.knetz.qn.app.v.h.ExpandableView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/gridview_body_sub6"

@@ -7,7 +7,7 @@ android {
 //    buildToolsVersion "26.0.2"
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId 'kr.knetz.kddi.app'
+        applicationId 'kr.knetz.qn.app'
         targetSdkVersion 29
         minSdkVersion 21
 

@@ -109,7 +109,7 @@
 
 #-assumenosideeffects class kr.linktek.repeater.app.util.Debug { *; }
 #-keep public class kr.linktek.repeater.app.v.Main
--assumenosideeffects class kr.knetz.kddi.app.l.Debug {
+-assumenosideeffects class kr.knetz.qn.app.l.Debug {
     public static boolean D;
     public static void logv(...);
     public static void logd(...);

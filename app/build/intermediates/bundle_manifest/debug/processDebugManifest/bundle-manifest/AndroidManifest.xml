@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.knetz.kddi.app"
+    package="kr.knetz.qn.app"
     android:minSdkVersion="21"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -19,23 +19,23 @@
     <!-- <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> -->
     <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
     <application
-        android:name="kr.knetz.kddi.app.KNetzApp"
+        android:name="kr.knetz.qn.app.KNetzApp"
         android:allowBackup="false"
         android:debuggable="true"
-        android:icon="@mipmap/au"
+        android:icon="@drawable/knetz_2_512_1"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/au_round"
         android:testOnly="true"
         android:theme="@style/OTGAppUITheme" >
 
-        <!-- android:icon="@drawable/knetz_2_512" -->
+        <!-- android:icon="@mipmap/au" -->
+        <!-- android:roundIcon="@mipmap/au_round" -->
         <!-- android:icon="@mipmap/ntt_docomo" -->
         <!-- android:roundIcon="@mipmap/ntt_docomo_round" -->
 
 
         <!-- android:theme="@style/StyledIndicators" -->
         <activity
-            android:name="kr.knetz.kddi.app.v.MainActivity"
+            android:name="kr.knetz.qn.app.v.MainActivity"
             android:clearTaskOnLaunch="true"
             android:label="@string/app_name"
             android:launchMode="singleTop"
@@ -54,25 +54,25 @@
                 android:resource="@xml/device_filter" />
         </activity>
         <activity
-            android:name="kr.knetz.kddi.app.v.h.LoginActivity"
+            android:name="kr.knetz.qn.app.v.h.LoginActivity"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="kr.knetz.kddi.app.v.h.ConnectActivity"
+            android:name="kr.knetz.qn.app.v.h.ConnectActivity"
             android:clearTaskOnLaunch="true" >
         </activity>
-        <activity android:name="kr.knetz.kddi.app.v.h.FileListActivity" >
+        <activity android:name="kr.knetz.qn.app.v.h.FileListActivity" >
         </activity>
-        <activity android:name="kr.knetz.kddi.app.v.h.HistoryActivity" >
+        <activity android:name="kr.knetz.qn.app.v.h.HistoryActivity" >
         </activity>
         <activity
-            android:name="kr.knetz.kddi.app.v.h.DeviceListActivity"
+            android:name="kr.knetz.qn.app.v.h.DeviceListActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Dialog" />
 
         <service
-            android:name="kr.knetz.kddi.app.v.h.DeviceService"
+            android:name="kr.knetz.qn.app.v.h.DeviceService"
             android:enabled="true" >
             <intent-filter>
                 <action android:name="SEND_MSG_FROM_BT_ACTION" />
@@ -83,7 +83,7 @@
         </service>
 
         <activity
-            android:name="kr.knetz.kddi.app.v.h.SettingActivity"
+            android:name="kr.knetz.qn.app.v.h.SettingActivity"
             android:label="@string/title_activity_preference" >
         </activity>
 

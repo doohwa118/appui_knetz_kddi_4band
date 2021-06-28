@@ -668,6 +668,10 @@
         "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\drawable-xxhdpi\\custom_tab_indicator_selected_focused.9.png"
     },
     {
+        "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_login_body_logo_754x406_2_1.png.flat",
+        "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\drawable-xhdpi\\login_body_logo_754x406_2_1.png"
+    },
+    {
         "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_dialog_arrow_right_61x128.png.flat",
         "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\drawable-xxhdpi\\dialog_arrow_right_61x128.png"
     },
@@ -1868,6 +1872,10 @@
         "source": "C:\\Users\\dhjun\\.gradle\\caches\\transforms-2\\files-2.1\\b28c3dfacec283a46c3ce58afd169202\\appcompat-v7-26.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_login_body_logo_754x406_2_2.png.flat",
+        "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\drawable-xhdpi\\login_body_logo_754x406_2_2.png"
+    },
+    {
         "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_vpi__tab_selected_pressed_holo.9.png.flat",
         "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\ViewPagerIndicator\\build\\intermediates\\packaged_res\\release\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
     },
@@ -1974,6 +1982,10 @@
     {
         "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_tab1_alarm.xml.flat",
         "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\layout\\activity_tab1_alarm.xml"
+    },
+    {
+        "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_knetz_2_512_1.png.flat",
+        "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\drawable-xxhdpi\\knetz_2_512_1.png"
     },
     {
         "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -2142,6 +2154,10 @@
     {
         "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
         "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_knetz_2_512_2.png.flat",
+        "source": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\src\\main\\res\\drawable-xxhdpi\\knetz_2_512_2.png"
     },
     {
         "merged": "C:\\Project\\StudioProjects\\appui_knetz_kddi_4band\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",

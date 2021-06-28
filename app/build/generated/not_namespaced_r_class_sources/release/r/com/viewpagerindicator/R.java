@@ -133,25 +133,25 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int notification_action_background = 0x7f08009f;
-        public static final int notification_bg = 0x7f0800a0;
-        public static final int notification_bg_low = 0x7f0800a1;
-        public static final int notification_bg_low_normal = 0x7f0800a2;
-        public static final int notification_bg_low_pressed = 0x7f0800a3;
-        public static final int notification_bg_normal = 0x7f0800a4;
-        public static final int notification_bg_normal_pressed = 0x7f0800a5;
-        public static final int notification_icon_background = 0x7f0800a6;
-        public static final int notification_template_icon_bg = 0x7f0800a7;
-        public static final int notification_template_icon_low_bg = 0x7f0800a8;
-        public static final int notification_tile_bg = 0x7f0800a9;
-        public static final int notify_panel_notification_icon_bg = 0x7f0800aa;
-        public static final int vpi__tab_indicator = 0x7f0800b4;
-        public static final int vpi__tab_selected_focused_holo = 0x7f0800b5;
-        public static final int vpi__tab_selected_holo = 0x7f0800b6;
-        public static final int vpi__tab_selected_pressed_holo = 0x7f0800b7;
-        public static final int vpi__tab_unselected_focused_holo = 0x7f0800b8;
-        public static final int vpi__tab_unselected_holo = 0x7f0800b9;
-        public static final int vpi__tab_unselected_pressed_holo = 0x7f0800ba;
+        public static final int notification_action_background = 0x7f0800a3;
+        public static final int notification_bg = 0x7f0800a4;
+        public static final int notification_bg_low = 0x7f0800a5;
+        public static final int notification_bg_low_normal = 0x7f0800a6;
+        public static final int notification_bg_low_pressed = 0x7f0800a7;
+        public static final int notification_bg_normal = 0x7f0800a8;
+        public static final int notification_bg_normal_pressed = 0x7f0800a9;
+        public static final int notification_icon_background = 0x7f0800aa;
+        public static final int notification_template_icon_bg = 0x7f0800ab;
+        public static final int notification_template_icon_low_bg = 0x7f0800ac;
+        public static final int notification_tile_bg = 0x7f0800ad;
+        public static final int notify_panel_notification_icon_bg = 0x7f0800ae;
+        public static final int vpi__tab_indicator = 0x7f0800b8;
+        public static final int vpi__tab_selected_focused_holo = 0x7f0800b9;
+        public static final int vpi__tab_selected_holo = 0x7f0800ba;
+        public static final int vpi__tab_selected_pressed_holo = 0x7f0800bb;
+        public static final int vpi__tab_unselected_focused_holo = 0x7f0800bc;
+        public static final int vpi__tab_unselected_holo = 0x7f0800bd;
+        public static final int vpi__tab_unselected_pressed_holo = 0x7f0800be;
     }
     public static final class id {
         private id() {}
