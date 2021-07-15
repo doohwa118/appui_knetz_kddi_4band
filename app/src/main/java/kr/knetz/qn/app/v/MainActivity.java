@@ -77,7 +77,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     private FragmentPagerAdapter pagerAdapter;
     private ViewPager mViewPager;
     private PagerAdapter wrappedAdapter;
-    private int mActionBarState = Variables.DISPLAY_ACTIONBAR_CONFIGURATION | Variables.DISPLAY_ACTIONBAR_DOWNLOAD;
+    private int mActionBarState = 0;// = Variables.DISPLAY_ACTIONBAR_CONFIGURATION | Variables.DISPLAY_ACTIONBAR_DOWNLOAD;
 
     private TextView[] mTextView = new TextView[4];
 
@@ -1439,7 +1439,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 case 2:
                 case 3:
                 case 4:
-                    return Variables.DISPLAY_ACTIONBAR_DOWNLOAD | Variables.DISPLAY_ACTIONBAR_CONFIGURATION;
+                    //return Variables.DISPLAY_ACTIONBAR_DOWNLOAD | Variables.DISPLAY_ACTIONBAR_CONFIGURATION;
  //               case 3:
  //                   return Variables.DISPLAY_ACTIONBAR_CONFIGURATION;
                 default:

@@ -3,7 +3,7 @@ package kr.knetz.qn.app.v.x;
 
 public class Variables {
 
-    public static final String DEFAULT_PASSWORD = "knetz1234";
+    public static final String DEFAULT_PASSWORD = "repqn";
     public static final boolean DEFAULT_PASSWORD_REMEMBER_FLAG = false;
 
     public static boolean USB_OR_BLUETOOTH_FLAG = true; // true : usb / false : bluetooth
@@ -476,7 +476,7 @@ public class Variables {
     public static byte[] gSupplierName = new byte[20];
 
     // GUI Protocol
-    public static final int DATA_PACKET_SIZE = 1000;
+    public static final int DATA_PACKET_SIZE = 512;
     public static final int DATA_BUFFER_SIZE = 1200;
 
     public static final int Proto_START_PACKET = 0x9E;

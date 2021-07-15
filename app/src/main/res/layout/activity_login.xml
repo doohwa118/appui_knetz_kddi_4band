@@ -17,7 +17,7 @@
             android:id="@+id/imageView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/login_body_logo_754x406_2_1" />
+            android:src="@drawable/login_body_logo_754x406_2" />
     </LinearLayout>
 
     <LinearLayout
@@ -95,8 +95,9 @@
             android:id="@+id/chk_remember_passwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginLeft="35dp"
-            android:text="저장" />
+            android:text="Password Save" />
 
     </LinearLayout>
 </LinearLayout>
