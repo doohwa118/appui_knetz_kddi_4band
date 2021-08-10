@@ -156,7 +156,7 @@ public class Tab4_Modem extends Fragment implements View.OnClickListener {
                             switch (modemRemote[i].getId()) {
                                 case Variables.DB_MODEM_LOCAL_PHONE_NUM:
                                     Debug.loge(new Exception(),"modem DB_LOCAL_PHONE_NUM : "+dataType.getValue() + ", Len: " + dataType.getValue().length());
-                                    if (dataType.getValue().getBytes().length > 0) {
+                                    if (dataType.getValue().getBytes().length >= 0) {
                                         if (dataType.getValue().getBytes().length > Variables.modemStruct.modem.rLocalPhoneNum.length) {
                                             System.arraycopy(dataType.getValue().getBytes(), 0, Variables.modemStruct.modem.rLocalPhoneNum, 0, Variables.modemStruct.modem.rLocalPhoneNum.length);
                                         } else {
@@ -168,7 +168,7 @@ public class Tab4_Modem extends Fragment implements View.OnClickListener {
                                     break;
                                 case Variables.DB_MODEM_RCS_PHONE_NUM:
                                     Debug.loge(new Exception(),"modem DB_RCS_PHONE_NUM : "+dataType.getValue() + ", Len: " + dataType.getValue().length());
-                                    if (dataType.getValue().getBytes().length > 0) {
+                                    if (dataType.getValue().getBytes().length >= 0) {
                                         if (dataType.getValue().getBytes().length > Variables.modemStruct.modem.rRcsPhoneNum.length) {
                                             System.arraycopy(dataType.getValue().getBytes(), 0, Variables.modemStruct.modem.rRcsPhoneNum, 0, Variables.modemStruct.modem.rRcsPhoneNum.length);
                                         } else {
@@ -218,7 +218,7 @@ public class Tab4_Modem extends Fragment implements View.OnClickListener {
                             switch (modemNetwork[i].getId()) {
                                 case Variables.DB_MODEM_APN:
                                     Debug.loge(new Exception(),"modem DB_MODEM_APN : "+dataType.getValue() + ", Len: " + dataType.getValue().length());
-                                    if (dataType.getValue().getBytes().length > 0) {
+                                    if (dataType.getValue().getBytes().length >= 0) {
                                         if (dataType.getValue().getBytes().length > Variables.modemStruct.modem.nApn.length) {
                                             System.arraycopy(dataType.getValue().getBytes(), 0, Variables.modemStruct.modem.nApn, 0, Variables.modemStruct.modem.nApn.length);
                                         } else {
@@ -230,7 +230,7 @@ public class Tab4_Modem extends Fragment implements View.OnClickListener {
                                     break;
                                 case Variables.DB_MODEM_USER_ID:
                                     Debug.loge(new Exception(),"modem DB_USER_ID : "+dataType.getValue() + ", Len: " + dataType.getValue().length());
-                                    if (dataType.getValue().getBytes().length > 0) {
+                                    if (dataType.getValue().getBytes().length >= 0) {
                                         if (dataType.getValue().getBytes().length > Variables.modemStruct.modem.nUserId.length) {
                                             System.arraycopy(dataType.getValue().getBytes(), 0, Variables.modemStruct.modem.nUserId, 0, Variables.modemStruct.modem.nUserId.length);
                                         } else {
@@ -242,7 +242,7 @@ public class Tab4_Modem extends Fragment implements View.OnClickListener {
                                     break;
                                 case Variables.DB_MODEM_USER_PASSWORD:
                                     Debug.loge(new Exception(),"modem DB_USER_PASSWORD : "+dataType.getValue() + ", Len: " + dataType.getValue().length());
-                                    if (dataType.getValue().getBytes().length > 0) {
+                                    if (dataType.getValue().getBytes().length >= 0) {
                                         if (dataType.getValue().getBytes().length > Variables.modemStruct.modem.nPassword.length) {
                                             System.arraycopy(dataType.getValue().getBytes(), 0, Variables.modemStruct.modem.nPassword, 0, Variables.modemStruct.modem.nPassword.length);
                                         } else {
@@ -278,7 +278,7 @@ public class Tab4_Modem extends Fragment implements View.OnClickListener {
                                 case Variables.DB_MODEM_RCS_IP_ADDR_9:
                                 case Variables.DB_MODEM_RCS_IP_ADDR_10:
                                     Debug.loge(new Exception(),"modem DB_RCS_IP_ADDR : "+dataType.getValue() + ", Len: " + dataType.getValue().length());
-                                    if (dataType.getValue().getBytes().length > 0) {
+                                    if (dataType.getValue().getBytes().length >= 0) {
                                         if (dataType.getValue().getBytes().length > Variables.modemStruct.modem.eRcsIpAddr[i].length) {
                                             System.arraycopy(dataType.getValue().getBytes(), 0, Variables.modemStruct.modem.eRcsIpAddr[i], 0, Variables.modemStruct.modem.eRcsIpAddr[i].length);
                                         } else {

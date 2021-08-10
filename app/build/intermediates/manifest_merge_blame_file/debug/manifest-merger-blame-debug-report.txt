@@ -2,8 +2,8 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="kr.knetz.qn.app"
 4    android:minSdkVersion="21"
-5    android:versionCode="2"
-6    android:versionName="1.0.1" > <!-- android:installLocation="preferExternal" -->
+5    android:versionCode="3"
+6    android:versionName="1.0.2" > <!-- android:installLocation="preferExternal" -->
 7    <uses-sdk
 7-->C:\Project\StudioProjects\appui_knetz_kddi_4band\app\src\main\AndroidManifest.xml:10:5-13:11
 8        android:minSdkVersion="21"

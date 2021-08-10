@@ -3,8 +3,8 @@
     package="kr.knetz.qn.app"
     android:minSdkVersion="21"
     android:targetSandboxVersion="2"
-    android:versionCode="2"
-    android:versionName="1.0.1" > <!-- android:installLocation="preferExternal" -->
+    android:versionCode="3"
+    android:versionName="1.0.2" > <!-- android:installLocation="preferExternal" -->
     <uses-sdk
         android:minSdkVersion="21"
         android:targetSdkVersion="29" />

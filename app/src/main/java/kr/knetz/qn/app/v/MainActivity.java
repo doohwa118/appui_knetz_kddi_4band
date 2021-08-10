@@ -3141,7 +3141,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                     else strBuf = "None";
                     break;
                 case Variables.DB_STATUS_VERSION:
-                    strBuf = String.format("v%x.%x", Variables.bandStruct[Variables.band].stats.sVersion / 0x10, Variables.bandStruct[Variables.band].stats.sVersion & 0x0F);
+                    strBuf = String.format("v%d.%d", (Variables.bandStruct[Variables.band].stats.sVersion&0xFF) / 0x10, Variables.bandStruct[Variables.band].stats.sVersion & 0x0F);
                     break;
                 case Variables.DB_STATUS_TEMPERATURE:
                     strBuf = Variables.bandStruct[Variables.band].stats.sTemperature + "'C";

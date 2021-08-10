@@ -68,7 +68,7 @@ public class DeviceService extends Service {
     final Messenger mMessenger = new Messenger(new IncomingHandler(DeviceService.this));
 
     private static final int MESSAGE_REFRESH = 101;
-    private static long REFRESH_TIMEOUT_MILLIS = 500;
+    private static long REFRESH_TIMEOUT_MILLIS = 250;
 
     private byte mFrameInfo;
     private byte mReceiverFrameInfo = 0x00;
@@ -1377,7 +1377,7 @@ public class DeviceService extends Service {
         sCrc16 = Crc16.fn_makeCRC16(aTarget, nLen+7);
         aTarget[nCnt++] = (byte)(sCrc16 >> 8);
         aTarget[nCnt++] = (byte)sCrc16;
-//        Debug.loge(new Exception(), "sCrc16 : " + String.format("%04x ",sCrc16&0xFFFF));
+        Debug.loge(new Exception(), "sCrc16 : " + String.format("%04x ",sCrc16&0xFFFF));
 
         nCnt = 0;
         aSource[nCnt++] = (byte)Variables.Proto_START_PACKET;
@@ -1396,9 +1396,9 @@ public class DeviceService extends Service {
                     break;
             }
         }
-//        Debug.logw(new Exception(), "aSource : " + HexDump.toHexString(aSource) + ", nCnt: " + nCnt + "\n");
+        Debug.logw(new Exception(), "aSource : " + HexDump.toHexString(aSource) + ", nCnt: " + nCnt + "\n");
         System.arraycopy(aSource, 0, aTarget, 0, nCnt);
-//        Debug.logw(new Exception(), "aTarget : " + HexDump.toHexString(aTarget));
+        Debug.logw(new Exception(), "aTarget : " + HexDump.toHexString(aTarget));
 
         aTarget[nCnt++] = (byte)Variables.Proto_END_PACKET;
 
@@ -1483,7 +1483,7 @@ public class DeviceService extends Service {
         byte[] txDataMakeBuf = new byte[Variables.DATA_BUFFER_SIZE];
         byte[] txData = null;
 
-        REFRESH_TIMEOUT_MILLIS = 250;
+//        REFRESH_TIMEOUT_MILLIS = 250;
 
         // Download Start
         if(Variables.Flag_Action_Download == 1){
@@ -1550,6 +1550,7 @@ public class DeviceService extends Service {
 
         switch(Variables.CmdState){
             case Variables.Cmd_STATUS_KDDI_QN:
+                REFRESH_TIMEOUT_MILLIS = 250;
 //                Debug.logi(new Exception(),"=dhjung=======> Cmd_STATUS_KDDI_QN, FlagBitCheck : " + Variables.FlagBitCheck);
                 if(Variables.FlagBitCheck == Variables.Flag_SEND_CHK) {
                     Variables.FlagBitCheck = 0;
@@ -1601,6 +1602,7 @@ public class DeviceService extends Service {
                         REFRESH_TIMEOUT_MILLIS = 3000;
                     }else{
                         msgType = (Variables.Type_REPORT | Variables.Type_REQUEST);
+                        REFRESH_TIMEOUT_MILLIS = 250;
                     }
 //                    Debug.logi(new Exception(),"=dhjung=======> Cmd_SETTING_KDDI_QN Send ==> msgType: "  + String.format("%02X",msgType));
                     nCnt = Make_SettingDataToRepeater(txDataMakeBuf);
@@ -1778,6 +1780,7 @@ public class DeviceService extends Service {
                 }else {
 //                    Debug.logi(new Exception(),"=dhjung=======> Cmd_MODEM_STATUS_KDDI_QN Send ==> ");
                     msgType = (Variables.Type_REPORT | Variables.Type_REQUEST);
+                    REFRESH_TIMEOUT_MILLIS = 250;
                     nCnt = makePacket((byte) Variables.CmdState, msgType, sysType, txDataBuf, txDataMakeBuf, 0);
                 }
                 break;
@@ -1797,6 +1800,9 @@ public class DeviceService extends Service {
 
                         nCnt = Make_ModemDataToRepeaterKddiQn(txDataMakeBuf);
                         nCnt = makePacket((byte) Variables.CmdState, msgType, sysType, txDataBuf, txDataMakeBuf, nCnt);
+                    }
+                    else{
+                        REFRESH_TIMEOUT_MILLIS = 250;
                     }
                 }
                 break;
@@ -1924,6 +1930,7 @@ public class DeviceService extends Service {
                 dataBuf |= (Variables.bandStruct[Variables.band].sets.tILC & 0x01) << 3;
                 data[nCnt++] = dataBuf;
                 data[nCnt++] = Variables.bandStruct[Variables.band].sets.tCellSearch;
+                dataBuf = 0;
                 dataBuf |= (Variables.bandStruct[Variables.band].sets.tFreqSelectAutoManual & 0x01);
                 dataBuf |= (Variables.bandStruct[Variables.band].sets.tFreqSelect10M15M & 0x01) << 1;
                 data[nCnt++] = dataBuf;
